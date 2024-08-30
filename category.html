@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <title>Product</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+</head>
+
+<body style=" font-family: 'poppins',sans-serif;">
+    <section class="header_menu" id="header_menu">
+        <div class="container-fluid px-0 shadow">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 ">
+                <a class="navbar-brand pl-5 pl-small-0" href="index.html" id="#up">
+                    <img src="logo.png" class="img img-fluid" width="80px" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="product_detail.html">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="category.html">Category</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+
+                    </ul>
+                    <div class="search mr-3">
+                        <a href="search.html" class="btn btn-sm btn-outline-primary">
+                            Search
+                        </a>
+                    </div>
+                    <div class="cart">
+                        <a href="cart.html">
+                            <i class="fas fa-shopping-cart fa-2x"></i>
+                            <span class="badge badge-pill badge-primary">24</span>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+
+
+    <section class="products py-5 my-5" id="products">
+        <div class="container ">
+            <div class="section_title text-center mb-5">
+                <h1 class="text-capitalize">Products</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-3 border-right mb-small-5">
+                    <h4 class="mb-5 border-bottom">Filters</h4>
+                    <div class="mb-5">
+                        <label><b>Category</b></label>
+                        <ul class="list-group">
+                            <li class="list-group-item">Category 1</li>
+                            <li class="list-group-item">Category 2</li>
+                            <li class="list-group-item">Category 3</li>
+                            <li class="list-group-item">Category 4</li>
+                            <li class="list-group-item">Category 5</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <form>
+                            <div class="form-group">
+                                <label><b>Price</b></label>
+                                <input type="range" min="100" max="1000" step="100" class="form-control-range">
+                            </div>
+                        </form>
+                        <div class="d-flex justify-content-between">
+                            <label>₹100</label>
+                            <label>₹1000</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9">
+
+                    <div class="row mb-5">
+                        <div class="col-md-4 col-12">
+                            <div class="single_product shadow text-center p-1">
+                                <div class="product_img">
+                                    <a href="product_detail.html"><img
+                                            src="https://img.lazcdn.com/g/p/74ed28d709ff48f4b9646f8cd5fceaf3.jpg_360x360q75.jpg_.webp"
+                                            class="img img-fluid" alt=""></a>
+                                </div>
+                                <div class="product-caption my-3">
+
+                                    <h5><a href="product_detail.html">Green Dress with
+                                            details</a></h5>
+                                    <div class="price">
+                                        <b><span class="mr-1">₹</span><span>400</span></b>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-12">
+                            <div class="single_product shadow text-center p-1 mt-small-5 mb-small-5">
+                                <div class="product_img">
+                                    <a href="product_detail.html"><img
+                                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtdcaXyOdOZe_a4llbdQisnoVXw2bSmNqC_g&s"
+                                            class="img img-fluid" alt=""></a>
+                                    <div class="new_product">
+
+                                        <span class="badge py-2 px-3 badge-pill badge-danger">New</span>
+                                    </div>
+                                </div>
+                                <div class="product-caption my-3">
+
+                                    <h5><a href="product_detail.html">Green Dress with
+                                            details</a></h5>
+                                    <div class="price">
+                                        <b><span class="mr-1">₹</span><span>400</span></b>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-12">
+                            <div class="single_product shadow text-center p-1">
+                                <div class="product_img">
+                                    <a href="product_detail.html"><img
+                                            src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw1888ad40/images/Titan/Catalog/1805QM01_1.jpg?sw=360&sh=360"
+                                            class="img img-fluid" alt=""></a>
+                                    <div class="new_product">
+                                        <span class="badge py-2 px-3 badge-pill badge-danger">New</span>
+                                    </div>
+                                </div>
+                                <div class="product-caption my-3">
+
+                                    <h5><a href="product_detail.html">Green Dress with
+                                            details</a></h5>
+                                    <div class="price">
+                                        <b><span class="mr-1">₹</span><span>400</span></b>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 col-12">
+                            <div class="single_product shadow text-center p-1">
+                                <div class="product_img">
+                                    <a href="product_detail.html"><img
+                                            src="https://www.iphonelife.com/sites/iphonelife.com/files/styles/promo_thumbnail_breakpoints_theme_newmango_mobile_2x/public/historyoftheiphone_0.jpg?itok=42ZbPFCC&timestamp=1677520558"
+                                            class="img img-fluid" alt=""></a>
+                                    <div class="new_product">
+                                        <span class="badge py-2 px-3 badge-pill badge-danger">New</span>
+                                    </div>
+                                </div>
+                                <div class="product-caption my-3">
+
+                                    <h5><a href="product_detail.html">Green Dress with
+                                            details</a></h5>
+                                    <div class="price">
+                                        <b><span class="mr-1">₹</span><span>400</span></b>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-12">
+                            <div class="single_product shadow text-center p-1 mt-small-5 mb-small-5">
+                                <div class="product_img">
+                                    <a href="product_detail.html"><img
+                                            src="https://i.pinimg.com/474x/2b/08/0e/2b080eb6e1ee390fdf37473edd426645.jpg"
+                                            class="img img-fluid" alt=""></a>
+                                    <div class="new_product">
+                                        <span class="badge py-2 px-3 badge-pill badge-danger">New</span>
+                                    </div>
+                                </div>
+                                <div class="product-caption my-3">
+
+                                    <h5><a href="product_detail.html">Green Dress with
+                                            details</a></h5>
+                                    <div class="price">
+
+                                        <b><span class="mr-1">₹</span><span>400</span></b>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-12">
+                            <div class="single_product shadow text-center p-1">
+                                <div class="product_img">
+                                    <a href="product_detail.html"><img
+                                            src="https://content.jdmagicbox.com/v2/comp/hyderabad/i3/040pxx40.xx40.180129111923.n6i3/catalogue/manjunath-enterprises-khairatabad-hyderabad-stationery-wholesalers-gck3j-250.jpg"
+                                            class="img img-fluid" alt=""></a>
+                                </div>
+                                <div class="product-caption my-3">
+
+                                    <h5><a href="product_detail.html">Green Dress with
+                                            details</a></h5>
+                                    <div class="price">
+                                        <b><span class="mr-1">₹</span><span>400</span></b>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer_section pt-5 pb-2" id="footer_section">
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3 col-6 pl-5 pl-small-15">
+                        <div class="footer_title">
+                            <a href="index.html"><img src="logo.png" width="100px" class="img img-fluid" alt="logo"></a>
+                        </div>
+                        <div>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, totam est
+                            illum ipsum quas ad
+                            dignissimos magni veritatis natus voluptatem.
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="footer_title pt-3 mb-3">
+                            <h3>Quick Links</h3>
+                        </div>
+                        <div class="footer_links">
+                            <ul>
+                                <li style="list-style-type: none;"><a href="about.html"
+                                        style="text-decoration: none; color: black;">About</a></li>
+                                <li style="list-style-type: none;"><a href="javascript:;"
+                                        style="text-decoration: none; color: black;">Offers & Discounts</a></li>
+                                <li style="list-style-type: none;"><a href="javascript:;"
+                                        style="text-decoration: none; color: black;">Get Coupon</a></li>
+                                <li style="list-style-type: none;"><a href="contact.html"
+                                        style="text-decoration: none; color: black;">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="footer_title pt-3 mb-3">
+                            <h3>New Products</h3>
+                        </div>
+                        <div class="footer_links">
+                            <ul>
+                                <li style="list-style-type: none;"><a href="javascript:;"
+                                        style="text-decoration: none; color: black;">Woman Cloth</a></li>
+                                <li style="list-style-type: none;"><a href="javascript:;"
+                                        style="text-decoration: none; color: black;">Fashion Accessories</a></li>
+                                <li style="list-style-type: none;"><a href="javascript:;"
+                                        style="text-decoration: none; color: black;">Man Accessories</a></li>
+                                <li style="list-style-type: none;"><a href="javascript:;"
+                                        style="text-decoration: none; color: black;">Rubber made Toys</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="footer_title pt-3 mb-3">
+                            <h3>Support</h3>
+                        </div>
+                        <div class="footer_links">
+                            <ul>
+                                <li style="list-style-type: none;"><a href="javascript:;"
+                                        style="text-decoration: none; color: black;">Frequently Asked Questions</a></li>
+                                <li style="list-style-type: none;"><a href="javascript:;"
+                                        style="text-decoration: none; color: black;">Terms & Conditions</a></li>
+                                <li style="list-style-type: none;"><a href="javascript:;"
+                                        style="text-decoration: none; color: black;">Privacy Policy</a></li>
+                                <li style="list-style-type: none;"><a href="javascript:;"
+                                        style="text-decoration: none; color: black;">Report a Payment Issue</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="border-top">
+                <h6 class="text-center mt-3">Copyright ©2024 All rights reserved
+                </h6>
+            </div>
+        </footer>
+    </section>
+    <div class="backtop">
+        <a id="button" href="#top" class="btn btn-lg btn-outline-danger" role="button">
+            <i class="fas fa-chevron-up text-dark"> <img src="back-to.png" height="10" width="20" alt=""></i>
+        </a>
+    </div>
+</body>
+
+
+</html>
